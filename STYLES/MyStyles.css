@@ -1,0 +1,1925 @@
+@media only screen 
+  and (min-device-width: 280px)  {
+    body {
+      margin: 0;
+      font-family: 'Dosis', sans-serif;
+      font-size: 30%;
+    }
+    nav {
+      display: block;
+      background-color: #ffffff;
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+      z-index: 10;
+    }
+    .sidenavButton {
+      color:black;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background-color: #000000;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      font-weight: 800;
+      }  
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+    } 
+    .sidenav a:hover {
+      color: #505050;
+    } 
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .sidenav a.active {
+      color: #4d4d4d;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .HomeHeader {
+      border: solid 2px #632423;
+      text-align: center;
+      background-color: #90b3b98f;
+      margin-top: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10%;
+      max-width: 550px;
+      padding: 8px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .cvheading {
+    text-align: center;
+    color: #632423;
+    font-size: 250%;
+    font-weight: 800;
+  }
+  .HomeHeaderParagraph {
+    text-align: center;
+    background-color: #EEECE1;
+    color: #632423;
+    font-weight: 800;
+}
+.Profile {
+  width: 130px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width:40px;
+}
+.logo {
+  width:40px;
+}
+.logo1 {
+  width: 40px;
+}
+.logor5 {
+  width: 24px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 10px;
+}
+.opl {
+  float: left;
+  max-width: 48vpx;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 10px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 230px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 13px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 380px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #333;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #333, #636363);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #333, #636363);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+}
+@media only screen 
+  and (min-device-width: 320px)  {
+    body {
+      margin: 0;
+      font-family: 'Dosis', sans-serif;
+      font-size: 35%;
+    }
+    nav {
+      display: block;
+      background-color: #ffffff;
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+      z-index: 10;
+    }
+    .sidenavButton {
+      color:black;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background-color: #000000;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      font-weight: 800;
+      }  
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+    } 
+    .sidenav a:hover {
+      color: #505050;
+    } 
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .sidenav a.active {
+      color: #4d4d4d;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .HomeHeader {
+      border: solid 2px #632423;
+      text-align: center;
+      background-color: #90b3b98f;
+      margin-top: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10%;
+      max-width: 550px;
+      padding: 8px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .cvheading {
+    text-align: center;
+    color: #632423;
+    font-size: 250%;
+    font-weight: 800;
+  }
+  .HomeHeaderParagraph {
+    text-align: center;
+    background-color: #EEECE1;
+    color: #632423;
+    font-weight: 800;
+}
+.Profile {
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width: 55px;
+}
+.logo1 {
+  width: 55px;
+}
+.logo {
+  width: 55px;
+}
+.logor5 {
+  width: 26px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 12px;
+}
+.opl {
+  float: left;
+  max-width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 250px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 17px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 400px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #333;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #333, #636363);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #333, #636363);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+}
+@media only screen 
+  and (min-device-width: 375px)  {
+    body {
+      margin: 0;
+      font-family: 'Dosis', sans-serif;
+      font-size: 40%;
+    }
+    nav {
+      display: block;
+      background-color: #ffffff;
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+      z-index: 10;
+    }
+    .sidenavButton {
+      color:black;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background-color: #000000;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      font-weight: 800;
+      }  
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+    } 
+    .sidenav a:hover {
+      color: #505050;
+    } 
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .sidenav a.active {
+      color: #4d4d4d;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .HomeHeader {
+      border: solid 2px #632423;
+      text-align: center;
+      background-color: #90b3b98f;
+      margin-top: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10%;
+      max-width: 550px;
+      padding: 8px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .cvheading {
+    text-align: center;
+    color: #632423;
+    font-size: 250%;
+    font-weight: 800;
+  }
+  .HomeHeaderParagraph {
+    text-align: center;
+    background-color: #EEECE1;
+    color: #632423;
+    font-weight: 800;
+}
+.Profile {
+  width: 270px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width: 70px;
+}
+.logo1 {
+  width: 70px;
+}
+.logo {
+  width: 70px;
+}
+.logor5 {
+  width: 30px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.opl {
+  float: left;
+  max-width: 54px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 290px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 440px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #333;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #333, #636363);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #333, #636363);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+}
+@media only screen and (min-device-width: 326px) {
+  body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50%;
+  }
+  nav {
+    display: block;
+    background-color: #ffffff;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    z-index: 10;
+  }
+  .sidenavButton {
+    color:black;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: 800;
+  }
+.sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+}  
+.sidenav a:hover {
+    color: #505050;
+} 
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidenav a.active {
+    color: #4d4d4d;
+  }
+  @media screen and (min-device-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .HomeHeader {
+    border: solid 2px #632423;
+    text-align: center;
+    background-color: #90b3b98f;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    max-width: 550px;
+    padding: 8px;
+    padding-left: 0;
+    padding-right: 0;
+ }
+ .cvheading {
+  text-align: center;
+  color: #632423;
+  font-size: 250%;
+  font-weight: 800;
+ }
+ .HomeHeaderParagraph {
+  text-align: center;
+  background-color: #EEECE1;
+  color: #632423;
+  font-weight: 800;
+}
+.Profile {
+  width: 340px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width: 60px;
+}
+.logo1 {
+  width: 60px;
+}
+.logo {
+  width: 60px;
+}
+.logor5 {
+  width: 28px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.opl {
+  float: left;
+  max-width: 52px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 270px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 19px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 420px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #333;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #333, #636363);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #333, #636363);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+}
+@media only screen
+  and (min-device-width: 810px) {
+    body {
+      margin: 0;
+      font-family: 'Dosis', sans-serif;
+      font-size: 80%;
+    }
+    nav {
+      display: block;
+      background-color: #ffffff;
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+      z-index: 10;
+    }
+    .sidenavButton {
+      color:black;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background-color: #000000;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      font-weight: 800;
+      }  
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+    } 
+    .sidenav a:hover {
+      color: #505050;
+    } 
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .sidenav a.active {
+      color: #4d4d4d;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .HomeHeader {
+      border: solid 2px #632423;
+      text-align: center;
+      background-color: #90b3b98f;
+      margin-top: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10%;
+      max-width: 550px;
+      padding: 8px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .cvheading {
+    text-align: center;
+    color: #632423;
+    font-size: 250%;
+    font-weight: 800;
+  }
+  .HomeHeaderParagraph {
+    text-align: center;
+    background-color: #EEECE1;
+    color: #632423;
+    font-weight: 800;
+}
+.Profile {
+  width: 410px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width: 90px;
+}
+.logo1 {
+  width: 90px;
+}
+.logo {
+  width: 90px;
+}
+.logor5 {
+  width: 34px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.opl {
+  float: left;
+  max-width: 58px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 22px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 330px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 23px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 480px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #333;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #333, #636363);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #333, #636363);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+}
+@media only screen and (min-device-width: 768px) {
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 60%;
+}
+nav {
+  display: block;
+  background-color: #ffffff;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  z-index: 10;
+}
+.sidenavButton {
+  color:black;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: 800;
+  }  
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+} 
+.sidenav a:hover {
+  color: #505050;
+} 
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a.active {
+  color: #4d4d4d;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.HomeHeader {
+  border: solid 2px #632423;
+  text-align: center;
+  background-color: #90b3b98f;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  max-width: 550px;
+  padding: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cvheading {
+  text-align: center;
+  color: #632423;
+  font-size: 250%;
+  font-weight: 800;
+}
+.Profile {
+  width: 480px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width: 80px;
+}
+.logo1 {
+  width: 80px;
+}
+.logo {
+  width: 80px;
+}
+.logor5 {
+  width: 32px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.opl {
+  float: left;
+  max-width: 56px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 310px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 21px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 460px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #333;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #333, #636363);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #333, #636363);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+}
+@media screen 
+  and (min-device-width: 1200px) {
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 100%;
+}
+nav {
+  display: block;
+  background-color: #ffffff;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  z-index: 10;
+}
+.sidenavButton {
+  color:black;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: 800;
+  }  
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+} 
+.sidenav a:hover {
+  color: #505050;
+} 
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a.active {
+  color: #4d4d4d;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.HomeHeader {
+  border: solid 2px #632423;
+  text-align: center;
+  background-color: #90b3b98f;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  max-width: 550px;
+  padding: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cvheading {
+  text-align: center;
+  color: #632423;
+  font-size: 250%;
+  font-weight: 800;
+}
+.HomeHeaderParagraph {
+  text-align: center;
+  background-color: #EEECE1;
+  color: #632423;
+  font-weight: 800;
+}
+.Profile {
+  max-width: 510px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.logor {
+  width: 100px;
+}
+.logo1 {
+  width: 100px;
+}
+.logo {
+  width: 100px;
+}
+.logor5 {
+  width: 36px;
+}
+.opel3 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 22px;
+}
+.opl {
+  float: left;
+  max-width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.opel4 {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 24px;
+}
+.Profile1 {
+  border: 1px hidden;
+  border-radius: 50%;
+  max-width: 350px;
+}
+.btn {
+  border: solid 2px #90b3b9;
+  border-radius: 100px;
+  background-color: #90b3b9;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+}
+.btnCreator {
+  border: inset 2px #f2b3b1;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  text-decoration: none;
+  color: #f5f4e1;
+  text-align: center;
+  font-size: 150%;
+  background-image: linear-gradient(to bottom right, #f2b3b1, #a2cfca);
+}
+.btnCreator:hover {
+  background-image: linear-gradient(to bottom right, #f2b3b17c, #a2cfca7c);
+  box-shadow: 0 0 80px #3f3f3f;
+  color: #333;
+}
+  }
+.SummaryHeader {
+  border: solid 1px #ffffffdf;
+  border-radius: 20px;
+  background-color: #ffffffdf;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.HomeHeader {
+  border: solid 2px #632423;
+  text-align: center;
+  background-color: #90b3b98f;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  max-width: 550px;
+  padding: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cvheading {
+  text-align: center;
+  color: #632423;
+  font-size: 250%;
+  font-weight: 800;
+}
+.HomeHeaderParagraph {
+  text-align: center;
+  background-color: #EEECE1;
+  color: #632423;
+  font-weight: 800;
+}
+.Profile {
+  border-radius: 50%;
+  margin: 10px;
+}
+body {
+  margin: 0;
+  background-image: url(../IMAGES/Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Dosis', sans-serif;
+  font-weight:bolder;
+}
+nav {
+  display: block;
+  background-color: #ffffff;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  z-index: 10;
+}
+.sidenavButton {
+  color:black;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: 800;
+  }  
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+} 
+.sidenav a:hover {
+  color: #505050;
+} 
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a.active {
+  color: #4d4d4d;
+}
+.sidenav a.active:hover {
+  color: #333333;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.SummaryHead {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #632423;
+}
+.SummaryParagraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 150%;
+  color: #632423;
+}
+.SummaryBreakLine {
+  border: 2px solid #632423;
+  width: 85%;
+}
+.AboutHeader {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  display: block;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.AboutHead {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.AboutBodyHead {
+  padding-left: 30px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.experienceMainDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 25px;
+}
+.experienceContent1 {
+  text-align: left;
+  padding: 25px;
+}
+.logo1 {
+  float: left;
+  border: 1px hidden;
+  padding-right: 25px;
+}
+.con {
+  padding-left: 100px;
+  padding-right: 25px;
+}
+.date1 {
+  font-size: 125%;
+  color: rgba(0, 0, 0, 0.351);
+  text-align: left;
+  padding-left: 25px;
+  font-weight: 800;
+}
+.date1 a {
+  color: rgba(0, 0, 0, 0.351);
+  font-weight: 800;
+  text-decoration: none;
+}
+.opel2 {
+  padding-left: 25px;
+}
+.jjjs:link {
+    color: black;
+    text-decoration: none;
+}
+.opel1 {
+    padding-left: 25px;
+    font-weight: 800;
+    font-size: 155%;
+}
+.opel {
+    padding-left: 45px;
+    font-weight: 800;
+    font-size: 155%;
+}
+.btn2 {
+    border: hidden;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    text-align: right;
+    padding-left: 5%;
+    font-size: 75%;
+}
+button:hover {
+    color: #0A66C5;
+}
+.btn1 {
+    border: hidden;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    text-align: right;
+    padding-left: 35%;
+    font-size: 75%;
+}
+.btn3 {
+    border: hidden;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    text-align: right;
+    padding-left: 5%;
+    font-size: 75%;
+}
+.btn4 {
+    border: hidden;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    text-align: right;
+    padding-left: 35%;
+    font-size: 75%;
+}
+.btn5 {
+    border: hidden;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    text-align: right;
+    padding-left: 15%;
+    font-size: 75%;
+}
+.btn6 {
+    border: hidden;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    text-align: right;
+    padding-left: 5%;
+    font-size: 75%;
+}
+#more {
+    display: none;
+}
+#more1 {
+    display: none;
+}
+#more2 {
+    display: none;
+}
+#more3 {
+    display: none;
+}
+#more4 {
+    display: none;
+}
+#more5 {
+    display: none;
+}
+.logo {
+    float: left;
+    border: 1px hidden;
+    padding-right: 25px;
+}
+.logor {
+    float: left;
+    border: 1px hidden;
+    padding-right: 25px;
+}
+.date2 {
+    font-size: 125%;
+    color: rgba(0, 0, 0, 0.351);
+    text-align: left;
+    padding-left: 25px;
+    font-weight: 800;
+}
+.date2 a {
+    color: rgba(0, 0, 0, 0.351);
+    font-weight: 800;
+    text-decoration: none;
+}
+.details a {
+  border: 1px hidden;
+  border-radius: 10px;
+  color: #666666;
+  font-size: 165%;
+  padding: 5px 10px;
+  margin: 10px 150px 10px 0;
+  text-decoration: none;
+}
+.details a:hover {
+  border: 1px solid #EBEBEB;
+  color: #666666;
+  background-color: #EBEBEB;
+}
+.details a:active {
+  color: #161616;
+  background-color: #E0E0E0;
+  border: 1px solid #E0E0E0;
+}
+.jjjs:visited {
+    color: black;
+    text-decoration: none;
+}
+.jjjs:hover {
+  color: #79dff1;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.exper5 {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  display: block;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.con5 {
+  padding-left: 30px;
+}
+.exper4 {
+  color: black;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22.5%;
+  display: block;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.klsw {
+  background-color: #EEECE1;
+  text-align: center;
+  color: #EEECE1;
+}
+.jik {
+  text-align: left;
+  margin-left: 30px;
+}
+.hihs {
+  margin-left: 75px;
+  margin-right: 20px;
+  font-size: 150%;
+}
+.date {
+  font-size: 125%;
+  color: rgba(0, 0, 0, 0.351);
+  text-align: left;
+  margin-left: 75px;
+}
+.exper3 {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  display: block;
+  width: 80%;
+  height: 100%;
+}
+.CVpages {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 100%;
+  border: 2px hidden;
+}
+.pages {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.round {
+  border-radius: 50%;
+}
+.previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: black;
+}
+.pageButton.active {
+  background-color: #666;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+.pageButton {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.pageButton {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+.btnDOWNLOAD {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding-top: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.s10298 {
+  text-align: center;
+  border: hidden 2px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  padding: 8px;
+}
+.sas {
+  color: #6a6969;
+}
+.Gallery {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  margin-bottom: 65px;
+}
+.galleryPics {
+  display: block;
+  margin-bottom: 15px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.btn:hover {
+  background-color: #90b3b9be;
+}
+.GalleryInDiv {
+  color: black;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  margin-bottom: 65px;
+  text-align: center;
+}
+#myImg01 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myImg01 img {
+  width: 175%;
+  height: 100%;
+  background-color: #000000;
+}

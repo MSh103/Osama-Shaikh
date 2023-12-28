@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="EN-UK">
+        <link rel="stylesheet" href="STYLES/MyStyles.css">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="Osama Shaikh's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Portfolio, Osama Shaikh, Cv, Linkedin">
+        <meta name="author" content="M Sh">
+        <title>Conference</title>
+        <meta http-equiv="refresh" content="300">
+        <link rel="icon" href="IMAGES/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;800&display=swap" rel="stylesheet">
+    </head>
+    <body class="NormalBody">
+        <nav>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">HOME</a>
+              <a href="summary.html">SUMMARY</a>
+              <a href="about.html">ABOUT</a>
+              <a href="experience.html">EXPERIENCE</a>
+              <a href="projects.html">PROJECTS</a>
+              <a href="skills.html">SKILLS</a>
+              <a href="certificates.html">CERTIFICATES</a>
+              <a href="training.html">TRAINING</a>
+              <a href="conference.html" class="active">CONFERENCE</a>
+              <a href="education.html">EDUCATION</a>
+              <a href="cv.html">CV</a>
+              <a href="contact.html">CONTACT</a>
+              <a href="gallery.html">GALLERY</a>
+              <a href="creator.html">CREATOR</a>
+          </div>
+              <span style="font-size:30px;cursor:pointer" class="sidenavButton" onclick="openNav()">&#9776;</span>
+              <script>
+                const sideNav = document.getElementById("mySidenav");
+                const screenWidth = window.innerWidth;
+
+                // Function to set the sidebar width based on screen width
+                function setSidebarWidth() {
+                  const sideNav = document.getElementById("mySidenav");
+                  const screenWidth = window.innerWidth;
+
+                  if (screenWidth >= 1200) {
+                      sideNav.style.width = "350px";
+                      sideNav.style.textAlign = "left";
+                  } else if (screenWidth >= 810) {
+                      sideNav.style.width = "250px";
+                      sideNav.style.textAlign = "left";
+                  } else if (screenWidth >= 768) {
+                      sideNav.style.width = "250px";
+                      sideNav.style.textAlign = "left";
+                  } else if (screenWidth >= 326) {
+                      sideNav.style.width = "100%";
+                      sideNav.style.textAlign = "center";
+                  } else if (screenWidth >= 375) {
+                      sideNav.style.width = "100%";
+                      sideNav.style.textAlign = "center";
+                  } else if (screenWidth >= 320) {
+                      sideNav.style.width = "100%";
+                      sideNav.style.textAlign = "center";
+                  } else if (screenWidth >= 280) {
+                      sideNav.style.width = "100%";
+                      sideNav.style.textAlign = "center";
+                  }
+                }
+
+                function openNav() {
+                  setSidebarWidth();
+                  window.addEventListener("resize", setSidebarWidth);
+                }
+                function closeNav() {
+                      sideNav.style.width = "0";
+                }
+                
+
+              </script>
+        </nav>
+        <main style="margin-top:50px;margin-bottom: 29%;">
+            <div class="exper4">
+                <h1 class="oikjs">
+                    Conference
+                </h1>
+                <div class="con1">
+                    <ul>
+                        <li class="opel4">Prince Sultan Aviation Academy, Opening Ceremony team, Saudi Arabian Airlines, Jeddah 2002.</li>
+                        <li class="opel4">Secretary General for Annual Sales &amp; Services Conference &amp; Exhibition, Saudi Arabian Airlines 2004 &amp; 2006.</li>
+                        <li class="opel4">ASTD International Conference &amp; Exposition, Orlando, Florida, USA, 2001.</li>
+                        <li class="opel4"> 7th Innovation "The Powerful Engine of Human Resources", ASHRM, Dubai, UAE 2003.</li>
+                        <li class="opel4">First Contractors Saudization Forum, Saudi Aramco, 2003.</li>
+                        <li class="opel4">Ground Handling International Asian Conference 2009 - International Conference &amp; ISAGO Workshop, Thailand.</li>
+                        <li class="opel4">IATA Ground Operations Symposium 2008 - International Conference, Exposition &amp; Workshop, Malaysia</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
