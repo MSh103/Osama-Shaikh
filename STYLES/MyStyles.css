@@ -202,6 +202,9 @@
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
 }
+.modal-content {
+  width: 100%;
+}
 }
 @media only screen 
   and (min-device-width: 320px)  {
@@ -406,6 +409,9 @@
   background-image: linear-gradient(to bottom right, #333, #636363);
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
+}
+.modal-content {
+  width: 100%;
 }
 }
 @media only screen 
@@ -612,6 +618,9 @@
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
 }
+.modal-content {
+  width: 100%;
+}
 }
 @media only screen and (min-device-width: 326px) {
   body {
@@ -815,6 +824,9 @@
   background-image: linear-gradient(to bottom right, #333, #636363);
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
+}
+.modal-content {
+  width: 100%;
 }
 }
 @media only screen
@@ -1021,6 +1033,9 @@
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
 }
+.modal-content {
+  width: 100%;
+}
 }
 @media only screen and (min-device-width: 768px) {
 body {
@@ -1218,6 +1233,9 @@ nav {
   background-image: linear-gradient(to bottom right, #333, #636363);
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
+}
+.modal-content {
+  width: 100%;
 }
 }
 @media screen 
@@ -1418,7 +1436,10 @@ nav {
   box-shadow: 0 0 80px #3f3f3f;
   color: #333;
 }
-  }
+.modal-content {
+  width: 90%;
+}
+}
 .SummaryHeader {
   border: solid 1px #ffffffdf;
   border-radius: 20px;
