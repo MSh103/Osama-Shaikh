@@ -1843,6 +1843,7 @@ button:hover {
 }
 .pageButton.active {
   background-color: #666;
+  border-radius: 100%;
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
