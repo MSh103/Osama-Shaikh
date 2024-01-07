@@ -1,0 +1,156 @@
+@media only screen 
+  and (min-device-width: 280px)  { 
+    .btnCreator {
+        border: inset 2px #333;
+        border-radius: 100px;
+        padding: 7%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #333, #636363);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #3333337c, #6363637c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px)  { 
+    .btnCreator {
+        border: inset 2px #333;
+        border-radius: 100px;
+        padding: 7%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #333, #636363);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #3333337c, #6363637c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+}
+@media only screen 
+  and (min-device-width: 375px)  { 
+    .btnCreator {
+        border: inset 2px #333;
+        border-radius: 100px;
+        padding: 7%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #333, #636363);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #3333337c, #6363637c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+}
+@media only screen and (min-width: 326px) {
+    .btnCreator {
+        border: inset 2px #333;
+        border-radius: 100px;
+        padding: 7%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #333, #636363);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #3333337c, #6363637c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+}
+@media only screen
+  and (min-device-width: 810px) {
+    .btnCreator {
+        border: inset 2px #333;
+        border-radius: 100px;
+        padding: 7%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #333, #636363);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #3333337c, #6363637c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+  }
+@media only screen 
+  and (min-device-width: 768px)  {
+    .btnCreator {
+        border: inset 2px #333;
+        border-radius: 100px;
+        padding: 6.5%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 15px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        font-size: 250%;
+        background-image: linear-gradient(to bottom right, #333, #636363);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #3333337c, #6363637c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) { 
+
+    .btnCreator {
+        border: inset 2px #f2b3b1;
+        border-radius: 100px;
+        padding: 7%;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 8px;
+        text-decoration: none;
+        color: #fff;
+        display:block;
+        text-align: center;
+        font-size: 90%;
+        background-image: linear-gradient(to bottom right, #f2b3b1, #a2cfca);
+    }
+    .btnCreator:hover {
+        background-image: linear-gradient(to bottom right, #f2b3b17c, #a2cfca7c);
+        box-shadow: 0 0 80px #3f3f3f;
+        color: #333;
+    }
+}
